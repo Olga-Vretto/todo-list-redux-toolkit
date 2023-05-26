@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { setTaskName, addTask, toggleTask, deleteTask } from '../Store/todoSlice';
+import { setTaskName, addTask, toggleTask, deleteTask } from '../../Store/todoSlice';
 import SectionTask from '../Tasks/SectionTask';
 import './Main.css';
 
